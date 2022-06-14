@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>WebStudio</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="flex">
+          <nav class="nav">
+            <a href="index.html" class="logo">Web<span class="logo-span">Studio</span> </a>
+            <ul class="site-nav">
+              <li class="item"><a href="index.html">Студия</a></li>
+              <li class="item"><a class="current" href="portfolio.html">Портфолио</a></li>
+              <li class="item"><a href="">Контакты</a></li>
+            </ul>
+          </nav>
+          <ul class="nav-contact">
+            <li class="item">
+              <a href="mailto:info@devstudio.com">
+                <svg class="icon-mail" width="16px" height="12px">
+                  <use href="images/icons.svg#mail"></use>
+                </svg>
+                info@devstudio.com</a
+              >
+            </li>
+            <li class="item">
+              <a href="tel:+380961111111">
+                <svg class="icon-tel" width="10px" height="16px">
+                  <use href="images/icons.svg#tel"></use>
+                </svg>
+                +38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="portfolio section">
+        <div class="container">
+          <ul class="btn">
+            <li class="item"><button type="button">Все</button></li>
+            <li class="item"><button type="button">Веб-сайты</button></li>
+            <li class="item"><button type="button">Приложения</button></li>
+            <li class="item"><button type="button">Дизайн</button></li>
+            <li class="item"><button type="button">Маркетинг</button></li>
+          </ul>
+          <ul class="projects">
+            <li class="item">
+              <img src="images/technokryak.jpg" alt="Веб-сайт открытый на ноутбуке" width="370" />
+              <div class="card-text">
+                <h2>Технокряк</h2>
+                <p>Веб-сайт</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="images/neworlean.jpg"
+                alt="Постер Нового Орлеана против Золотых звёзд"
+                width="370"
+              />
+              <div class="card-text">
+                <h2>Постер New Orlean vs Golden Star</h2>
+                <p>Дизайн</p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="images/seafood.jpg" alt="Логотип ресторана моская еда" width="370" />
+              <div class="card-text">
+                <h2>Ресторан Seafood</h2>
+                <p>Приложение</p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="images/prime.jpg" alt="Наушники" width="370" />
+              <div class="card-text">
+                <h2>Проект Prime</h2>
+                <p>Маркетинг</p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="images/boxes.jpg" alt="Белая и коричневая коробка" width="370" />
+              <div class="card-text">
+                <h2>Проект Boxes</h2>
+                <p>Приложение</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="images/inspiration.jpg"
+                alt="Пример пользовательского интерфейса открытого на аймаке"
+                width="370"
+              />
+              <div class="card-text">
+                <h2>Михаил Ермаков</h2>
+                <p>UI Designer</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="images/limedition.jpg"
+                alt="Открытая книга с заголовком я ограниченный выпуск"
+                width="370"
+              />
+              <div class="card-text">
+                <h2>Издание Limited Edition</h2>
+                <p>Дизайн</p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="images/lab.jpg" alt="Белый брелок с надписью ЛАБ ЕЛ ТАГ" width="370" />
+              <div class="card-text">
+                <h2>Проект LAB</h2>
+                <p>Маркетинг</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="images/growing.jpg"
+                alt="Открытый сайт на ноутбуке с заголовком Растущий бизнес"
+                width="370"
+              />
+              <div class="card-text">
+                <h2>Growing Business</h2>
+                <p>Приложение</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-flex container">
+        <div class="">
+          <a href="index.html" class="footer-logo">Web<span class="footer-span">Studio</span> </a>
+          <address class="adress">
+            <p class="city">г. Киев, пр-т Леси Украинки, 26</p>
+            <ul>
+              <li class="item">
+                <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+              </li>
+              <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+            </ul>
+          </address>
+        </div>
+        <div class="links">
+          <h3>Присоединяйтесь</h3>
+          <ul class="social-links">
+            <li class="link">
+              <a href="#"
+                ><svg class="inst" width="44" height="44">
+                  <use href="images/icons.svg#inst"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="link">
+              <a href="#"
+                ><svg class="twitter" width="44" height="44">
+                  <use href="images/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="link">
+              <a href="#"
+                ><svg class="fb" width="44" height="44">
+                  <use href="images/icons.svg#fb"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="link">
+              <a href="#"
+                ><svg class="linkedin" width="44" height="44">
+                  <use href="images/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
