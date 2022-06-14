@@ -348,29 +348,40 @@ ul {
   padding-bottom: 16px;
 }
 
-.person1 {
+.person {
   display: flex;
   width: 206px;
   height: 44px;
   margin-left: auto;
   margin-right: auto;
 }
-.person1 svg {
+
+.person a {
+  display: block;
+  width: 44px;
+  height: 44px;
+}
+.person svg {
   fill: #afb1b8;
 }
-.person1 svg:hover {
+.person svg:hover {
   fill: var(--white-color);
 }
-.person1 .social:hover {
+
+.person .social {
+  border-radius: 50%;
+}
+
+.person .social:hover {
   border-radius: 50%;
   background-color: var(--accent-color);
 }
 
-.person1 .social + .social {
+.person .social + .social {
   margin-left: 10px;
 }
 
-.person1 svg {
+.person svg {
   padding: 12px;
 }
 
