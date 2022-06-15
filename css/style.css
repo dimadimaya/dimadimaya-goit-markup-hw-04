@@ -128,10 +128,6 @@ ul {
 .nav-contact a:hover,
 .nav-contact a:focus {
   color: var(--accent-color);
-}
-
-.nav-contact .item:hover,
-.nav-contact .item:focus {
   fill: var(--accent-color);
 }
 
@@ -145,9 +141,7 @@ ul {
 }
 
 .icon-tel {
-  margin-left: 30px;
   margin-right: 10px;
-
   padding-top: 4px;
 }
 
@@ -360,57 +354,54 @@ ul {
   display: block;
   width: 44px;
   height: 44px;
-}
-.person svg {
+  border-radius: 50%;
+  padding: 12px;
   fill: #afb1b8;
 }
-.person svg:hover {
-  fill: var(--white-color);
-}
 
-.person .social {
-  border-radius: 50%;
-}
-
-.person .social:hover {
+.person a:hover,
+.person a:focus {
   border-radius: 50%;
   background-color: var(--accent-color);
+  fill: var(--white-color);
+  color: var(--white-color);
 }
 
 .person .social + .social {
   margin-left: 10px;
 }
 
-.person svg {
-  padding: 12px;
-}
+/* Наши клиенты */
 
 .company {
   display: flex;
 }
 
-.clients .card {
+.clients a {
+  display: block;
+  text-align: center;
   width: 170px;
   height: 92px;
-
+  fill: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
-.company .card + .card {
-  margin-left: 30px;
+.company .card {
+  display: flex;
 }
 
-.company svg {
-  padding: 16px 32px;
-  fill: #afb1b8;
-}
-
-.company svg:hover {
-  fill: var(--accent-color);
-}
-.company .card:hover {
+.company a:hover,
+.company a:focus {
   border: 1px solid var(--accent-color);
+  fill: var(--accent-color);
+  color: var(--accent-color);
+}
+
+.clients .card + .card {
+  margin-left: 30px;
 }
 
 .footer {
@@ -463,6 +454,12 @@ address {
 
   color: var(--white-color);
 }
+
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--accent-color);
+}
+
 .footer .item + .item {
   margin-top: 9px;
 }
@@ -478,37 +475,34 @@ address {
   line-height: 1.7;
 }
 
-.footer .link:hover,
-.footer .link:focus {
-  color: var(--accent-color);
-}
-
-.footer .social-link {
-  display: flex;
-}
-
-.social-links {
+.footer .social-links {
   display: flex;
   width: 206px;
   height: 44px;
-  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.social-links svg {
+.social-links a {
+  display: block;
+  width: 44px;
+  height: 44px;
   padding: 12px;
-  fill: var(--white-color);
-}
-
-.links .link {
+  margin-top: 20px;
   border-radius: 50%;
+  fill: var(--white-color);
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.links .link:hover {
+.social-links a:hover,
+.social-links a:focus {
+  border-radius: 50%;
   background-color: var(--accent-color);
+  fill: var(--white-color);
+  color: var(--white-color);
 }
 
-.links .link + .link {
+.links .icon + .icon {
   margin-left: 10px;
 }
 
