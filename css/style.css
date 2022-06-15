@@ -375,18 +375,18 @@ ul {
 
 .company {
   display: flex;
+  justify-content: center;
 }
 
 .clients a {
-  display: block;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 170px;
   height: 92px;
   fill: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  padding-top: 16px;
-  padding-bottom: 16px;
 }
 
 .company .card {
